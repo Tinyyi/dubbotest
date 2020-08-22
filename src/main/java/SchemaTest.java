@@ -7,6 +7,7 @@ public class SchemaTest {
 
         ApplicationContext ctx = new ClassPathXmlApplicationContext("/applicationContext.xml");
         Student student1 = (Student) ctx.getBean("student1");
+
         Student student2 = (Student) ctx.getBean("student2");
         Student student3 = (Student) ctx.getBean("student3");
 
